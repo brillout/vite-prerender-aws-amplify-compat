@@ -23,4 +23,7 @@ export default {
       "./runtimeConfig": "./runtimeConfig.browser",
     },
   },
+  ssr: {
+    noExternal: ['@aws-amplify/ui-react']
+  }
 } as UserConfig;
